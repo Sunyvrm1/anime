@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary: #ffdd95;
+  --bg1: #242428;
+  --bg2: rgba(255, 255, 255, 0.1);
+  --color1: #fff;
+  --color2: #aaaaaa;
+  --color3: #111;
+}
+.flex {
+  display: flex;
+}
+.spaceBetween {
+  justify-content: space-between;
+}
+.alignCenter {
+  align-items: center;
+}
+.gap1 {
+  gap: 30px;
+}
+section {
+  padding: 0 50px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/* header css */
+
+header {
+  padding: 10px 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+header i {
+  font-size: 25px;
+  color: var(--color1);
+}
+header .search i {
+  font-size: 15px;
+  color: var(--color3);
+}
+header img {
+  width: 120px;
+}
+.search {
+  padding: 5px 8px;
+  background-color: var(--color1);
+}
+.search input {
+  border: none;
+  padding: 0 5px;
+}
+.search input:focus-visible {
+  outline: none;
+}
+.btnSearch {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 4px;
+}
+.login {
+  padding: 0px 15px;
+  background-color: var(--primary);
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color3);
+  border-radius: 3px;
+}
+
+/* banner css */
+
+.slider {
+  position: relative;
+  padding: 0;
+  height: 650px;
+  overflow: hidden;
+}
+.slide{
+    position: absolute;
+    width: 100%;
+   transition: transform 0.3s;
+}
+.bannerContent {
+  position: absolute;
+  width: 40%;
+  color: #fff;
+  z-index: 2;
+  left: 50px;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.bannerIcon {
+  display: flex;
+  gap: 20px;
+}
+.bannerImage {
+  display: flex;
+  justify-content: end;
+}
+.bannerImage img {
+  height: 650px;
+  object-fit: cover;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, var(--bg1), var(--bg1), transparent);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.bannerBtn {
+  display: flex;
+  gap: 10px;
+}
+.bannerBtn button {
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+.playButton {
+  background-color: var(--primary);
+  color: var(--color3);
+}
+.detailButton {
+  background-color: #56565b;
+  color: var(--color1);
+  font-weight: 500;
+}
+.Spotlight {
+  color: var(--primary);
+  font-size: 20px;
+}
+.threeLines {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.slideBtn{
+    height: 45px;
+    width: 45px;
+    background-color: #56565b;
+    position: absolute;
+    color: #fff;
+    border: none;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    z-index: 3;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.left{
+    bottom: 110px;
+}
+.slideBtn:hover{
+    background-color: var(--primary);
+    color: var(--color3);
+}
