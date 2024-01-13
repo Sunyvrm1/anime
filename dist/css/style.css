@@ -46,6 +46,9 @@ header i {
   font-size: 25px;
   color: var(--color1);
 }
+.navIcon{
+  cursor: pointer;
+}
 header .search i {
   font-size: 15px;
   color: var(--color3);
@@ -78,6 +81,39 @@ header img {
   font-weight: 600;
   color: var(--color3);
   border-radius: 3px;
+}
+.sideNavigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(36, 36, 40, 0.8);
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+  display: none;
+}
+.activeNav{
+  display: block;
+}
+.closeBtn {
+  margin: 0 0 15px 15px;
+}
+.closeBtn i {
+  font-size: 16px;
+}
+nav {
+  width: 260px;
+  height: 100vh;
+  background-color: var(--bg2);
+  padding-top: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  transition: tranform 0.5s;
+}
+.activeMenu{
+  transform: translateX(0%);
 }
 
 /* banner css */
@@ -134,7 +170,8 @@ header img {
   display: flex;
   gap: 10px;
 }
-.bannerBtn button {
+.bannerBtn button,
+.btn1 {
   border-radius: 50px;
   padding: 10px 20px;
   border: none;
@@ -152,6 +189,9 @@ header img {
   background-color: #56565b;
   color: var(--color1);
   font-weight: 500;
+}
+.detailButton:hover {
+  background-color: #6a6a71;
 }
 .Spotlight {
   color: var(--primary);
@@ -210,7 +250,7 @@ header img {
     z-index: 1;
   }
   h2 {
-  font-size: 35px;
-  font-weight: 600;
-}
+    font-size: 35px;
+    font-weight: 600;
+  }
 }
