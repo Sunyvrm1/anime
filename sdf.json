@@ -1,5 +1,5 @@
 {
-"anime": [
+  "anime": [
     {
       "anime_id": 1,
       "url": "https://myanimelist.net/anime/51180/",
@@ -88,763 +88,847 @@
       ]
     },
     {
-        "anime_id": 2,
-        "url": "https://myanimelist.net/anime/52299/",
-        "images": "https://cdn.myanimelist.net/images/anime/1926/140799.jpg",
-        "trailer": {
-          "youtube_id": "gY5nDXOtv_o",
-          "url": "https://youtu.be/sqtIagL463A?si=f3mDrUmwzKmug74V",
-          "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
-        },
-        "title_english": "Solo Leveling",
-        "title_japanese": "俺だけレベルアップな件",
-        "Synonyms": "Na Honjaman Level Up, I Level Up Alone, 나 혼자만 레벨업",
-        "type": "TV",
-        "source": "Original",
-        "episodes": 1,
-        "status": "Currently Airing",
-        "aired": {
-          "from": "1998-04-03T00:00:00+00:00",
-          "to": "1999-04-24T00:00:00+00:00",
-          "prop": {
-            "from": {
-              "day": 3,
-              "month": 4,
-              "year": 1998
-            },
-            "to": {
-              "day": 24,
-              "month": 4,
-              "year": 1999
-            }
-          },
-          "string": "Jan 7, 2024 to ?"
-        },
-        "duration": "24 min",
-        "rating": "R - 17+ (violence & profanity)",
-        "score": 8.75,
-        "scored_by": 946725,
-        "rank": 46,
-        "popularity": 43,
-        "members": 1831694,
-        "favorites": 81068,
-        "synopsis": "Ten years ago, 'the Gate' appeared and connected the real world with the realm of magic and monsters. To combat these vile beasts, ordinary people received superhuman powers and became known as 'Hunters.' Twenty-year-old Sung Jin-Woo is one such Hunter, but he is known as the 'World's Weakest,' owing to his pathetic power compared to even a measly E-Rank. Still, he hunts monsters tirelessly in low-rank Gates to pay for his mother's medical bills. \n\nHowever, this miserable lifestyle changes when Jin-Woo—believing himself to be the only one left to die in a mission gone terribly wrong—awakens in a hospital three days later to find a mysterious screen floating in front of him. This 'Quest Log' demands that Jin-Woo completes an unrealistic and intense training program, or face an appropriate penalty. Initially reluctant to comply because of the quest's rigor, Jin-Woo soon finds that it may just transform him into one of the world's most fearsome Hunters.\n\n[Written by MAL Rewrite]",
-        "season": "Winter",
-        "year": 2024,
-        "producers": [
-          {
-            "mal_id": 23,
-            "type": "anime",
-            "name": "Aniplex",
-            "url": "https://myanimelist.net/anime/producer/17/Aniplex"
-          },
-          {
-            "mal_id": 23,
-            "type": "anime",
-            "name": "Crunchyroll",
-            "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
-          }
-        ],
-        "licensors": [
-          {
-            "mal_id": 102,
-            "type": "anime",
-            "name": "Funimation",
-            "url": "https://myanimelist.net/anime/producer/102/Funimation"
-          }
-        ],
-        "studios": [
-          {
-            "mal_id": 14,
-            "type": "anime",
-            "name": "A-1 Pictures",
-            "url": "https://myanimelist.net/anime/producer/56/A-1_Pictures"
-          }
-        ],
-        "genres": [
-          {
-            "mal_id": 1,
-            "type": "anime",
-            "name": "Action",
-            "url": "https://myanimelist.net/anime/genre/1/Action"
-          },
-          {
-            "mal_id": 46,
-            "type": "anime",
-            "name": "Adventure",
-            "url": "https://myanimelist.net/anime/genre/2/Adventure"
-          },
-          {
-            "mal_id": 24,
-            "type": "anime",
-            "name": "Fantasy",
-            "url": "https://myanimelist.net/anime/genre/10/Fantasy"
-          }
-        ]
+      "anime_id": 2,
+      "url": "https://myanimelist.net/anime/52299/",
+      "images": "https://cdn.myanimelist.net/images/anime/1926/140799.jpg",
+      "trailer": {
+        "youtube_id": "gY5nDXOtv_o",
+        "url": "https://youtu.be/sqtIagL463A?si=f3mDrUmwzKmug74V",
+        "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
       },
-      {
-        "anime_id": 3,
-        "url": "https://myanimelist.net/anime/269/Bleach",
-        "images": "https://cdn.myanimelist.net/images/anime/3/40451.jpg",
-        "trailer": {
-          "youtube_id": "gY5nDXOtv_o",
-          "url": "https://youtu.be/0yk5H6vvfG4?si=_VnpN0sAIbg0kQ4K",
-          "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
+      "title_english": "Solo Leveling",
+      "title_japanese": "俺だけレベルアップな件",
+      "Synonyms": "Na Honjaman Level Up, I Level Up Alone, 나 혼자만 레벨업",
+      "type": "TV",
+      "source": "Original",
+      "episodes": 1,
+      "status": "Currently Airing",
+      "aired": {
+        "from": "1998-04-03T00:00:00+00:00",
+        "to": "1999-04-24T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 3,
+            "month": 4,
+            "year": 1998
+          },
+          "to": {
+            "day": 24,
+            "month": 4,
+            "year": 1999
+          }
         },
-        "title_english": "Bleach",
-        "title_japanese": "ブリーチ -",
-        "Synonyms": "BLEACH - ブリーチ -",
-        "type": "TV",
-        "source": "Original",
-        "episodes": 366,
-        "status": "Finished Airing",
-        "aired": {
-          "from": "1998-04-03T00:00:00+00:00",
-          "to": "1999-04-24T00:00:00+00:00",
-          "prop": {
-            "from": {
-              "day": 3,
-              "month": 4,
-              "year": 1998
-            },
-            "to": {
-              "day": 24,
-              "month": 4,
-              "year": 1999
-            }
-          },
-          "string": ""
-        },
-        "duration": "24 min",
-        "rating": "R - 17+ (violence & profanity)",
-        "score": 8.75,
-        "scored_by": 946725,
-        "rank": 46,
-        "popularity": 43,
-        "members": 1831694,
-        "favorites": 81068,
-        "synopsis": "",
-        "season": "Winter",
-        "year": 2024,
-        "producers": [
-          {
-            "name": "Aniplex",
-            "url": "https://myanimelist.net/anime/producer/17/Aniplex"
-          },
-          {
-            "name": "Crunchyroll",
-            "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
-          }
-        ],
-        "licensors": [
-          {
-            "mal_id": 102,
-            "type": "anime",
-            "name": "Funimation",
-            "url": "https://myanimelist.net/anime/producer/102/Funimation"
-          }
-        ],
-        "studios": [
-          {
-            "name": "A-1 Pictures",
-            "url": "https://myanimelist.net/anime/producer/56/A-1_Pictures"
-          }
-        ],
-        "genres": [
-          {
-            "name": "Action",
-            "url": "https://myanimelist.net/anime/genre/1/Action"
-          },
-          {
-            "name": "Adventure",
-            "url": "https://myanimelist.net/anime/genre/2/Adventure"
-          },
-          {
-            "name": "Fantasy",
-            "url": "https://myanimelist.net/anime/genre/10/Fantasy"
-          }
-        ]
+        "string": "Jan 7, 2024 to ?"
       },
-      {
-        "anime_id": 4,
+      "duration": "24 min",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 8.75,
+      "scored_by": 946725,
+      "rank": 46,
+      "popularity": 43,
+      "members": 1831694,
+      "favorites": 81068,
+      "synopsis": "Ten years ago, 'the Gate' appeared and connected the real world with the realm of magic and monsters. To combat these vile beasts, ordinary people received superhuman powers and became known as 'Hunters.' Twenty-year-old Sung Jin-Woo is one such Hunter, but he is known as the 'World's Weakest,' owing to his pathetic power compared to even a measly E-Rank. Still, he hunts monsters tirelessly in low-rank Gates to pay for his mother's medical bills. \n\nHowever, this miserable lifestyle changes when Jin-Woo—believing himself to be the only one left to die in a mission gone terribly wrong—awakens in a hospital three days later to find a mysterious screen floating in front of him. This 'Quest Log' demands that Jin-Woo completes an unrealistic and intense training program, or face an appropriate penalty. Initially reluctant to comply because of the quest's rigor, Jin-Woo soon finds that it may just transform him into one of the world's most fearsome Hunters.\n\n[Written by MAL Rewrite]",
+      "season": "Winter",
+      "year": 2024,
+      "producers": [
+        {
+          "mal_id": 23,
+          "type": "anime",
+          "name": "Aniplex",
+          "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+        },
+        {
+          "mal_id": 23,
+          "type": "anime",
+          "name": "Crunchyroll",
+          "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 102,
+          "type": "anime",
+          "name": "Funimation",
+          "url": "https://myanimelist.net/anime/producer/102/Funimation"
+        }
+      ],
+      "studios": [
+        {
+          "mal_id": 14,
+          "type": "anime",
+          "name": "A-1 Pictures",
+          "url": "https://myanimelist.net/anime/producer/56/A-1_Pictures"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 46,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "mal_id": 24,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ]
+    },
+    {
+      "anime_id": 3,
+      "url": "https://myanimelist.net/anime/269/Bleach",
+      "images": "https://cdn.myanimelist.net/images/anime/3/40451.jpg",
+      "trailer": {
+        "youtube_id": "gY5nDXOtv_o",
+        "url": "https://youtu.be/0yk5H6vvfG4?si=_VnpN0sAIbg0kQ4K",
+        "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
+      },
+      "title_english": "Bleach",
+      "title_japanese": "ブリーチ -",
+      "Synonyms": "BLEACH - ブリーチ -",
+      "type": "TV",
+      "source": "Original",
+      "episodes": 366,
+      "status": "Finished Airing",
+      "aired": {
+        "from": "1998-04-03T00:00:00+00:00",
+        "to": "1999-04-24T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 3,
+            "month": 4,
+            "year": 1998
+          },
+          "to": {
+            "day": 24,
+            "month": 4,
+            "year": 1999
+          }
+        },
+        "string": "Oct 5, 2004 to Mar 27, 2012"
+      },
+      "duration": "24 min",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 8.75,
+      "scored_by": 946725,
+      "rank": 46,
+      "popularity": 43,
+      "members": 1831694,
+      "favorites": 81068,
+      "synopsis": "Ichigo Kurosaki is an ordinary high schooler—until his family is attacked by a Hollow, a corrupt spirit that seeks to devour human souls. It is then that he meets a Soul Reaper named Rukia Kuchiki, who gets injured while protecting Ichigo's family from the assailant. To save his family, Ichigo accepts Rukia's offer of taking her powers and becomes a Soul Reaper as a result. However, as Rukia is unable to regain her powers, Ichigo is given the daunting task of hunting down the Hollows that plague their town. However, he is not alone in his fight, as he is later joined by his friends—classmates Orihime Inoue, Yasutora Sado, and Uryuu Ishida—who each have their own unique abilities. As Ichigo and his comrades get used to their new duties and support each other on and off the battlefield, the young Soul Reaper soon learns that the Hollows are not the only real threat to the human world.",
+      "season": "Fall",
+      "year": 2004,
+      "producers": [
+        {
+          "name": "Aniplex",
+          "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+        },
+        {
+          "name": "Viz Media",
+          "url": "https://myanimelist.net/anime/producer/119/VIZ_Media"
+        },
+        {
+          "name": "TV Tokyo",
+          "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 102,
+          "type": "anime",
+          "name": "Funimation",
+          "url": "https://myanimelist.net/anime/producer/102/Funimation"
+        }
+      ],
+      "studios": [
+        {
+          "name": "Studio Pierrot",
+          "url": "https://myanimelist.net/anime/producer/1/Pierrot"
+        }
+      ],
+      "genres": [
+        {
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        },
+        {
+          "name": "Supernatural",
+          "url": "https://myanimelist.net/anime/genre/37/Supernatural"
+        }
+      ]
+    },
+    {
+      "anime_id": 4,
+      "url": "https://myanimelist.net/anime/52211/",
+      "images": "https://cdn.myanimelist.net/images/anime/1218/135107.jpg",
+      "trailer": {
+        "youtube_id": "gY5nDXOtv_o",
+        "url": "https://youtu.be/Hbz4shbCPCA?si=D0hAtbtdj2OQ3BaD",
+        "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
+      },
+      "title_english": "Mashle: Magic and Muscles",
+      "title_japanese": "マッシュル",
+      "Synonyms": "マッシュル-MASHLE-",
+      "type": "TV",
+      "source": "Original",
+      "episodes": 112,
+      "status": "Finished Airing",
+      "aired": {
+        "from": "1998-04-03T00:00:00+00:00",
+        "to": "1999-04-24T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 3,
+            "month": 4,
+            "year": 1998
+          },
+          "to": {
+            "day": 24,
+            "month": 4,
+            "year": 1999
+          }
+        },
+        "string": "Apr 8, 2023 to Jul 1, 2023"
+      },
+      "duration": "24 min",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 8.75,
+      "scored_by": 946725,
+      "rank": 46,
+      "popularity": 43,
+      "members": 1831694,
+      "favorites": 81068,
+      "synopsis": "In this magical world, one is easily identified as having magical abilities by a distinctive mark on their face. Those unable to practice magic are swiftly exterminated to maintain the magical integrity of society. However, deep within a forest lies an anomaly in Mash Burnedead, who can be found pumping iron with one arm and lifting a cream puff with the other. This aloof boy with superhuman strength—but no magical abilities—leads a quiet life with his father, far removed from society. Mash's peace is soon disturbed when the authorities discover his lack of magical powers. They issue him an ultimatum: compete to become a 'Divine Visionary,' which would force everyone to accept him, or be persecuted forever. To protect his family, he enrolls in the prestigious Easton Magic Academy, which only the most elite and gifted students are allowed to attend. Now, Mash must overcome his shortcomings as a magicless being and surpass the other students—relying solely on his muscles.",
+      "season": "Spring",
+      "year": 2023,
+      "producers": [
+        {
+          "name": "Aniplex",
+          "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+        },
+        {
+          "name": "Crunchyroll",
+          "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 102,
+          "type": "anime",
+          "name": "Funimation",
+          "url": "https://myanimelist.net/anime/producer/102/Funimation"
+        }
+      ],
+      "studios": [
+        {
+          "name": "A-1 Pictures",
+          "url": "https://myanimelist.net/anime/producer/56/A-1_Pictures"
+        }
+      ],
+      "genres": [
+        {
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "anime_id": 5,
+      "url": "https://myanimelist.net/anime/21/One_Piece",
+      "images": "https://cdn.myanimelist.net/images/anime/1244/138851.jpg",
+      "trailer": {
+        "youtube_id": "gY5nDXOtv_o",
+        "url": "https://youtu.be/S8_YwFLCh4U?si=r6xfPcG0_XUOip9w",
+        "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
+      },
+      "title_english": "One Piece",
+      "title_japanese": "ONE PIECE",
+      "Synonyms": "OP",
+      "type": "TV",
+      "source": "Original",
+      "episodes": 1089,
+      "status": "Currently Airing",
+      "aired": {
+        "from": "1998-04-03T00:00:00+00:00",
+        "to": "1999-04-24T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 3,
+            "month": 4,
+            "year": 1998
+          },
+          "to": {
+            "day": 24,
+            "month": 4,
+            "year": 1999
+          }
+        },
+        "string": "Oct 20, 1999 to ?"
+      },
+      "duration": "24 min",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 8.75,
+      "scored_by": 946725,
+      "rank": 46,
+      "popularity": 43,
+      "members": 1831694,
+      "favorites": 81068,
+      "synopsis": "Gold Roger was known as the 'Pirate King,' the strongest and most infamous being to have sailed the Grand Line. The capture and execution of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece—which promises an unlimited amount of riches and fame—and quite possibly the pinnacle of glory and the title of the Pirate King. Enter Monkey Luffy, a 17-year-old boy who defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate ransacking villages for fun, Luffy's reason for being a pirate is one of pure wonder: the thought of an exciting adventure that leads him to intriguing people and ultimately, the promised treasure. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach the most coveted of all fortunes—One Piece.",
+      "season": "Fall",
+      "year": 1999,
+      "producers": [
+        {
+          "name": "Toei Animation",
+          "url": "https://myanimelist.net/anime/producer/18/Toei_Animation"
+        },
+        {
+          "name": "Fuji TV",
+          "url": "https://myanimelist.net/anime/producer/169/Fuji_TV"
+        },
+        {
+          "name": "Funimation",
+          "url": "https://myanimelist.net/anime/producer/102/Funimation"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 102,
+          "type": "anime",
+          "name": "Funimation",
+          "url": "https://myanimelist.net/anime/producer/102/Funimation"
+        }
+      ],
+      "studios": [
+        {
+          "name": "Toei Animation",
+          "url": "https://myanimelist.net/anime/producer/18/Toei_Animation"
+        }
+      ],
+      "genres": [
+        {
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        },
+        {
+          "name": "Super Power",
+          "url": "https://myanimelist.net/anime/genre/31/Super_Power"
+        }
+      ]
+    },
+    {
+      "anime_id": 6,
+      "url": "https://myanimelist.net/anime/51009/Jujutsu_Kaisen_2nd_Season",
+      "images": "https://cdn.myanimelist.net/images/anime/1792/138022.jpg",
+      "trailer": {
+        "youtube_id": "gY5nDXOtv_o",
+        "url": "https://youtu.be/PKHQuQF1S8k?si=piOBlPj2iv2LB9c7",
+        "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
+      },
+      "title_english": "Jujutsu Kaisen 2nd Season",
+      "title_japanese": "呪術廻戦",
+      "Synonyms": "Sorcery Fight, JJK, Jujutsu Kaisen Season 2,Jujutsu Kaisen 2nd Season,Jujutsu Kaisen: Hidden Inventory Arc",
+      "type": "TV",
+      "source": "Original",
+      "episodes": 23,
+      "status": "Finished Airing",
+      "aired": {
+        "from": "1998-04-03T00:00:00+00:00",
+        "to": "1999-04-24T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 3,
+            "month": 4,
+            "year": 1998
+          },
+          "to": {
+            "day": 24,
+            "month": 4,
+            "year": 1999
+          }
+        },
+        "string": "Jul 6, 2023 to Dec 28, 2023"
+      },
+      "duration": "24 min",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 8.75,
+      "scored_by": 946725,
+      "rank": 46,
+      "popularity": 43,
+      "members": 1831694,
+      "favorites": 81068,
+      "synopsis": "The year is 2006, and the halls of Tokyo Prefectural Jujutsu High School echo with the endless bickering and intense debate between two inseparable best friends. Exuding unshakeable confidence, Satoru Gojou and Suguru Getou believe there is no challenge too great for young and powerful Special Grade sorcerers such as themselves. They are tasked with safely delivering a sensible girl named Riko Amanai to the entity whose existence is the very essence of the jujutsu world. However, the mission plunges them into an exhausting swirl of moral conflict that threatens to destroy the already feeble amity between sorcerers and ordinary humans. Twelve years later, students and sorcerers are the frontline defense against the rising number of high-level curses born from humans' negative emotions. As the entities grow in power, their self-awareness and ambition increase too. The curses unite for the common goal of eradicating humans and creating a world of only cursed energy users, led by a dangerous, ancient cursed spirit. To dispose of their greatest obstacle—the strongest sorcerer, Gojou—they orchestrate an attack at Shibuya Station on Halloween. Dividing into teams, the sorcerers enter the fight prepared to risk everything to protect the innocent and their own kind.",
+      "season": "Summer",
+      "year": 2023,
+      "producers": [
+        {
+          "name": "TOHO animation",
+          "url": "https://myanimelist.net/anime/producer/1143/TOHO_animation"
+        },
+        {
+          "name": "Shueisha",
+          "url": "https://myanimelist.net/anime/producer/1365/Shueisha"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 102,
+          "type": "anime",
+          "name": "Funimation",
+          "url": "https://myanimelist.net/anime/producer/102/Funimation"
+        }
+      ],
+      "studios": [
+        {
+          "name": "MAPPA",
+          "url": "https://myanimelist.net/anime/producer/569/MAPPA"
+        }
+      ],
+      "genres": [
+        {
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "name": "School",
+          "url": "https://myanimelist.net/anime/genre/23/School"
+        },
+        {
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "anime_id": 7,
+      "url": "https://myanimelist.net/anime/16498/Shingeki_no_Kyojin",
+      "images": "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
+      "trailer": {
+        "youtube_id": "gY5nDXOtv_o",
+        "url": "https://youtu.be/LHtdKWJdif4?si=7MJfKiRaHLnpEqgj",
+        "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
+      },
+      "title_english": "Attack on Titan",
+      "title_japanese": "進撃の巨人",
+      "Synonyms": "AoT",
+      "type": "TV",
+      "source": "Original",
+      "episodes": 25,
+      "status": "Finished Airing",
+      "aired": {
+        "from": "1998-04-03T00:00:00+00:00",
+        "to": "1999-04-24T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 3,
+            "month": 4,
+            "year": 1998
+          },
+          "to": {
+            "day": 24,
+            "month": 4,
+            "year": 1999
+          }
+        },
+        "string": "Apr 7, 2013 to Sep 29, 2013"
+      },
+      "duration": "24 min",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 8.75,
+      "scored_by": 946725,
+      "rank": 46,
+      "popularity": 43,
+      "members": 1831694,
+      "favorites": 81068,
+      "synopsis": "Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure. To ensure their survival, the remnants of humanity began living within defensive barriers, resulting in one hundred years without a single titan encounter. However, that fragile calm is soon shattered when a colossal titan manages to breach the supposedly impregnable outer wall, reigniting the fight for survival against the man-eating abominations. After witnessing a horrific personal loss at the hands of the invading creatures, Eren Yeager dedicates his life to their eradication by enlisting into the Survey Corps, an elite military unit that combats the merciless humanoids outside the protection of the walls. Based on Hajime Isayama's award-winning manga, Shingeki no Kyojin follows Eren, along with his adopted sister Mikasa Ackerman and his childhood friend Armin Arlert, as they join the brutal war against the titans and race to discover a way of defeating them before the last walls are breached.",
+      "season": "Spring",
+      "year": 2013,
+      "producers": [
+        {
+          "name": "Production I.G",
+          "url": "https://myanimelist.net/anime/producer/10/Production_IG"
+        },
+        {
+          "name": "Pony Canyon",
+          "url": "https://myanimelist.net/anime/producer/144/Pony_Canyon"
+        },
+        {
+          "name": "Wit Studio",
+          "url": "https://myanimelist.net/anime/producer/858/Wit_Studio"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 102,
+          "type": "anime",
+          "name": "Funimation",
+          "url": "https://myanimelist.net/anime/producer/102/Funimation"
+        }
+      ],
+      "studios": [
+        {
+          "name": "Wit Studio",
+          "url": "https://myanimelist.net/anime/producer/858/Wit_Studio"
+        }
+      ],
+      "genres": [
+        {
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "name": "Military",
+          "url": "https://myanimelist.net/anime/genre/38/Military"
+        },
+        {
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        },
+        {
+          "name": "Super Power",
+          "url": "https://myanimelist.net/anime/genre/31/Super_Power"
+        }
+      ]
+    },
+    {
+      "anime_id": 8,
+      "url": "https://myanimelist.net/anime/34572/Black_Clover",
+      "images": "https://cdn.myanimelist.net/images/anime/2/88336.jpg",
+      "trailer": {
+        "youtube_id": "gY5nDXOtv_o",
+        "url": "https://youtu.be/vUjAxk1qYzQ?si=9u4gGohOosYj7W_M",
+        "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
+      },
+      "title_english": "Black Clover",
+      "title_japanese": "ブラッククローバー",
+      "Synonyms": "ブラッククローバー",
+      "type": "TV",
+      "source": "Original",
+      "episodes": 170,
+      "status": "Finished Airing",
+      "aired": {
+        "from": "1998-04-03T00:00:00+00:00",
+        "to": "1999-04-24T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 3,
+            "month": 4,
+            "year": 1998
+          },
+          "to": {
+            "day": 24,
+            "month": 4,
+            "year": 1999
+          }
+        },
+        "string": "Oct 3, 2017 to Mar 30, 2021"
+      },
+      "duration": "24 min",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 8.75,
+      "scored_by": 946725,
+      "rank": 46,
+      "popularity": 43,
+      "members": 1831694,
+      "favorites": 81068,
+      "synopsis": "Asta and Yuno were abandoned at the same church on the same day. Raised together as children, they came to know of the 'Wizard King'—a title given to the strongest mage in the kingdom—and promised that they would compete against each other for the position of the next Wizard King. However, as they grew up, the stark difference between them became evident. While Yuno is able to wield magic with amazing power and control, Asta cannot use magic at all and desperately tries to awaken his powers by training physically. When they reach the age of 15, Yuno is bestowed a spectacular Grimoire with a four-leaf clover, while Asta receives nothing. However, soon after, Yuno is attacked by a person named Lebuty, whose main purpose is to obtain Yuno's Grimoire. Asta tries to fight Lebuty, but he is outmatched. Though without hope and on the brink of defeat, he finds the strength to continue when he hears Yuno's voice. Unleashing his inner emotions in a rage, Asta receives a five-leaf clover Grimoire, a 'Black Clover' giving him enough power to defeat Lebuty. A few days later, the two friends head out into the world, both seeking the same goal—to become the Wizard King!",
+      "season": "Fall",
+      "year": 2017,
+      "producers": [
+        {
+          "name": "TV Tokyo",
+          "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+        },
+        {
+          "name": "Studio Pierrot",
+          "url": "https://myanimelist.net/anime/producer/1/Pierrot"
+        },
+        {
+          "name": "Crunchyroll",
+          "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 102,
+          "type": "anime",
+          "name": "Funimation",
+          "url": "https://myanimelist.net/anime/producer/102/Funimation"
+        }
+      ],
+      "studios": [
+        {
+          "name": "Studio Pierrot",
+          "url": "https://myanimelist.net/anime/producer/1/Pierrot"
+        }
+      ],
+      "genres": [
+        {
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "anime_id": 9,
+      "url": "https://myanimelist.net/anime/1735/Naruto__Shippuuden",
+      "images": "https://cdn.myanimelist.net/images/anime/1565/111305.jpg",
+      "trailer": {
+        "youtube_id": "gY5nDXOtv_o",
+        "url": "https://youtu.be/1dy2zPPrKD0?si=FDL2lehjOT_xXWrP",
+        "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
+      },
+      "title_english": "Naruto: Shippuden",
+      "title_japanese": "ナルト- 疾風伝",
+      "Synonyms": "Naruto Hurricane Chronicles",
+      "type": "TV",
+      "source": "Original",
+      "episodes": 500,
+      "status": "Finished Airing",
+      "aired": {
+        "from": "1998-04-03T00:00:00+00:00",
+        "to": "1999-04-24T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 3,
+            "month": 4,
+            "year": 1998
+          },
+          "to": {
+            "day": 24,
+            "month": 4,
+            "year": 1999
+          }
+        },
+        "string": "Feb 15, 2007 to Mar 23, 2017"
+      },
+      "duration": "24 min",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 8.75,
+      "scored_by": 946725,
+      "rank": 46,
+      "popularity": 43,
+      "members": 1831694,
+      "favorites": 81068,
+      "synopsis": "It has been two and a half years since Naruto Uzumaki left Konohagakure, the Hidden Leaf Village, for intense training following events which fueled his desire to be stronger. Now Akatsuki, the mysterious organization of elite rogue ninja, is closing in on their grand plan which may threaten the safety of the entire shinobi world. Although Naruto is older and sinister events loom on the horizon, he has changed little in personality—still rambunctious and childish—though he is now far more confident and possesses an even greater determination to protect his friends and home. Come whatever may, Naruto will carry on with the fight for what is important to him, even at the expense of his own body, in the continuation of the saga about the boy who wishes to become Hokage.",
+      "season": "Winter",
+      "year": 2007,
+      "producers": [
+        {
+          "name": "Aniplex",
+          "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+        },
+        {
+          "name": "Crunchyroll",
+          "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
+        },
+        {
+          "name": "TV Tokyo",
+          "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+        },
+        {
+          "name": "Viz Media",
+          "url": "https://myanimelist.net/anime/producer/119/VIZ_Media"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 102,
+          "type": "anime",
+          "name": "Funimation",
+          "url": "https://myanimelist.net/anime/producer/102/Funimation"
+        }
+      ],
+      "studios": [
+        {
+          "name": "Studio Pierrot",
+          "url": "https://myanimelist.net/anime/producer/1/Pierrot"
+        }
+      ],
+      "genres": [
+        {
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "name": "Martial Arts",
+          "url": "https://myanimelist.net/anime/genre/17/Martial_Arts"
+        },
+        {
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        },
+        {
+          "name": "Super Power",
+          "url": "https://myanimelist.net/anime/genre/31/Super_Power"
+        }
+      ]
+    },
+    {
+      "anime_id": 10,
+      "url": "",
+      "images": "",
+      "trailer": {
+        "youtube_id": "gY5nDXOtv_o",
         "url": "",
-        "images": "",
-        "trailer": {
-          "youtube_id": "gY5nDXOtv_o",
-          "url": "",
-          "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
-        },
-        "title_english": "",
-        "title_japanese": "",
-        "Synonyms": "",
-        "type": "TV",
-        "source": "Original",
-        "episodes": 1,
-        "status": "Currently Airing",
-        "aired": {
-          "from": "1998-04-03T00:00:00+00:00",
-          "to": "1999-04-24T00:00:00+00:00",
-          "prop": {
-            "from": {
-              "day": 3,
-              "month": 4,
-              "year": 1998
-            },
-            "to": {
-              "day": 24,
-              "month": 4,
-              "year": 1999
-            }
-          },
-          "string": ""
-        },
-        "duration": "24 min",
-        "rating": "R - 17+ (violence & profanity)",
-        "score": 8.75,
-        "scored_by": 946725,
-        "rank": 46,
-        "popularity": 43,
-        "members": 1831694,
-        "favorites": 81068,
-        "synopsis": "",
-        "season": "Winter",
-        "year": 2024,
-        "producers": [
-          {
-            "name": "Aniplex",
-            "url": "https://myanimelist.net/anime/producer/17/Aniplex"
-          },
-          {
-            "name": "Crunchyroll",
-            "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
-          }
-        ],
-        "licensors": [
-          {
-            "mal_id": 102,
-            "type": "anime",
-            "name": "Funimation",
-            "url": "https://myanimelist.net/anime/producer/102/Funimation"
-          }
-        ],
-        "studios": [
-          {
-            "name": "A-1 Pictures",
-            "url": "https://myanimelist.net/anime/producer/56/A-1_Pictures"
-          }
-        ],
-        "genres": [
-          {
-            "name": "Action",
-            "url": "https://myanimelist.net/anime/genre/1/Action"
-          },
-          {
-            "name": "Adventure",
-            "url": "https://myanimelist.net/anime/genre/2/Adventure"
-          },
-          {
-            "name": "Fantasy",
-            "url": "https://myanimelist.net/anime/genre/10/Fantasy"
-          }
-        ]
+        "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
       },
-      {
-        "anime_id": 5,
-        "url": "",
-        "images": "",
-        "trailer": {
-          "youtube_id": "gY5nDXOtv_o",
-          "url": "",
-          "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
+      "title_english": "Chainsaw Man",
+      "title_japanese": "チェンソーマン",
+      "Synonyms": "チェンソ",
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Finished Airing",
+      "aired": {
+        "from": "1998-04-03T00:00:00+00:00",
+        "to": "1999-04-24T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 3,
+            "month": 4,
+            "year": 1998
+          },
+          "to": {
+            "day": 24,
+            "month": 4,
+            "year": 1999
+          }
         },
-        "title_english": "",
-        "title_japanese": "",
-        "Synonyms": "",
-        "type": "TV",
-        "source": "Original",
-        "episodes": 1,
-        "status": "Currently Airing",
-        "aired": {
-          "from": "1998-04-03T00:00:00+00:00",
-          "to": "1999-04-24T00:00:00+00:00",
-          "prop": {
-            "from": {
-              "day": 3,
-              "month": 4,
-              "year": 1998
-            },
-            "to": {
-              "day": 24,
-              "month": 4,
-              "year": 1999
-            }
-          },
-          "string": ""
-        },
-        "duration": "24 min",
-        "rating": "R - 17+ (violence & profanity)",
-        "score": 8.75,
-        "scored_by": 946725,
-        "rank": 46,
-        "popularity": 43,
-        "members": 1831694,
-        "favorites": 81068,
-        "synopsis": "",
-        "season": "Winter",
-        "year": 2024,
-        "producers": [
-          {
-            "name": "Aniplex",
-            "url": "https://myanimelist.net/anime/producer/17/Aniplex"
-          },
-          {
-            "name": "Crunchyroll",
-            "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
-          }
-        ],
-        "licensors": [
-          {
-            "mal_id": 102,
-            "type": "anime",
-            "name": "Funimation",
-            "url": "https://myanimelist.net/anime/producer/102/Funimation"
-          }
-        ],
-        "studios": [
-          {
-            "name": "A-1 Pictures",
-            "url": "https://myanimelist.net/anime/producer/56/A-1_Pictures"
-          }
-        ],
-        "genres": [
-          {
-            "name": "Action",
-            "url": "https://myanimelist.net/anime/genre/1/Action"
-          },
-          {
-            "name": "Adventure",
-            "url": "https://myanimelist.net/anime/genre/2/Adventure"
-          },
-          {
-            "name": "Fantasy",
-            "url": "https://myanimelist.net/anime/genre/10/Fantasy"
-          }
-        ]
+        "string": "Oct 12, 2022 to Dec 28, 2022"
       },
-      {
-        "anime_id": 6,
-        "url": "",
-        "images": "",
-        "trailer": {
-          "youtube_id": "gY5nDXOtv_o",
-          "url": "",
-          "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
+      "duration": "24 min",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 8.75,
+      "scored_by": 946725,
+      "rank": 46,
+      "popularity": 43,
+      "members": 1831694,
+      "favorites": 81068,
+      "synopsis": "Denji is robbed of a normal teenage life, left with nothing but his deadbeat father's overwhelming debt. His only companion is his pet, the chainsaw devil Pochita, with whom he slays devils for money that inevitably ends up in the yakuza's pockets. All Denji can do is dream of a good, simple life: one with delicious food and a beautiful girlfriend by his side. But an act of greedy betrayal by the yakuza leads to Denji's brutal, untimely death, crushing all hope of him ever achieving happiness. Remarkably, an old contract allows Pochita to merge with the deceased Denji and bestow devil powers on him, changing him into a hybrid able to transform his body parts into chainsaws. Because Denji's new abilities pose a significant risk to society, the Public Safety Bureau's elite devil hunter Makima takes him in, letting him live as long as he obeys her command. Guided by the promise of a content life alongside an attractive woman, Denji devotes everything and fights with all his might to make his naive dreams a reality.",
+      "season": "Fall",
+      "year": 2022,
+      "producers": [
+        {
+          "name": "MAPPA",
+          "url": "https://myanimelist.net/anime/producer/569/MAPPA"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 102,
+          "type": "anime",
+          "name": "Funimation",
+          "url": "https://myanimelist.net/anime/producer/102/Funimation"
+        }
+      ],
+      "studios": [
+        {
+          "name": "MAPPA",
+          "url": "https://myanimelist.net/anime/producer/569/MAPPA"
+        }
+      ],
+      "genres": [
+        {
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
         },
-        "title_english": "",
-        "title_japanese": "",
-        "Synonyms": "",
-        "type": "TV",
-        "source": "Original",
-        "episodes": 1,
-        "status": "Currently Airing",
-        "aired": {
-          "from": "1998-04-03T00:00:00+00:00",
-          "to": "1999-04-24T00:00:00+00:00",
-          "prop": {
-            "from": {
-              "day": 3,
-              "month": 4,
-              "year": 1998
-            },
-            "to": {
-              "day": 24,
-              "month": 4,
-              "year": 1999
-            }
-          },
-          "string": ""
+        {
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
         },
-        "duration": "24 min",
-        "rating": "R - 17+ (violence & profanity)",
-        "score": 8.75,
-        "scored_by": 946725,
-        "rank": 46,
-        "popularity": 43,
-        "members": 1831694,
-        "favorites": 81068,
-        "synopsis": "",
-        "season": "Winter",
-        "year": 2024,
-        "producers": [
-          {
-            "name": "Aniplex",
-            "url": "https://myanimelist.net/anime/producer/17/Aniplex"
-          },
-          {
-            "name": "Crunchyroll",
-            "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
-          }
-        ],
-        "licensors": [
-          {
-            "mal_id": 102,
-            "type": "anime",
-            "name": "Funimation",
-            "url": "https://myanimelist.net/anime/producer/102/Funimation"
-          }
-        ],
-        "studios": [
-          {
-            "name": "A-1 Pictures",
-            "url": "https://myanimelist.net/anime/producer/56/A-1_Pictures"
-          }
-        ],
-        "genres": [
-          {
-            "name": "Action",
-            "url": "https://myanimelist.net/anime/genre/1/Action"
-          },
-          {
-            "name": "Adventure",
-            "url": "https://myanimelist.net/anime/genre/2/Adventure"
-          },
-          {
-            "name": "Fantasy",
-            "url": "https://myanimelist.net/anime/genre/10/Fantasy"
-          }
-        ]
-      },
-      {
-        "anime_id": 7,
-        "url": "",
-        "images": "",
-        "trailer": {
-          "youtube_id": "gY5nDXOtv_o",
-          "url": "",
-          "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
+        {
+          "name": "Horror",
+          "url": "https://myanimelist.net/anime/genre/14/Horror"
         },
-        "title_english": "",
-        "title_japanese": "",
-        "Synonyms": "",
-        "type": "TV",
-        "source": "Original",
-        "episodes": 1,
-        "status": "Currently Airing",
-        "aired": {
-          "from": "1998-04-03T00:00:00+00:00",
-          "to": "1999-04-24T00:00:00+00:00",
-          "prop": {
-            "from": {
-              "day": 3,
-              "month": 4,
-              "year": 1998
-            },
-            "to": {
-              "day": 24,
-              "month": 4,
-              "year": 1999
-            }
-          },
-          "string": ""
-        },
-        "duration": "24 min",
-        "rating": "R - 17+ (violence & profanity)",
-        "score": 8.75,
-        "scored_by": 946725,
-        "rank": 46,
-        "popularity": 43,
-        "members": 1831694,
-        "favorites": 81068,
-        "synopsis": "",
-        "season": "Winter",
-        "year": 2024,
-        "producers": [
-          {
-            "name": "Aniplex",
-            "url": "https://myanimelist.net/anime/producer/17/Aniplex"
-          },
-          {
-            "name": "Crunchyroll",
-            "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
-          }
-        ],
-        "licensors": [
-          {
-            "mal_id": 102,
-            "type": "anime",
-            "name": "Funimation",
-            "url": "https://myanimelist.net/anime/producer/102/Funimation"
-          }
-        ],
-        "studios": [
-          {
-            "name": "A-1 Pictures",
-            "url": "https://myanimelist.net/anime/producer/56/A-1_Pictures"
-          }
-        ],
-        "genres": [
-          {
-            "name": "Action",
-            "url": "https://myanimelist.net/anime/genre/1/Action"
-          },
-          {
-            "name": "Adventure",
-            "url": "https://myanimelist.net/anime/genre/2/Adventure"
-          },
-          {
-            "name": "Fantasy",
-            "url": "https://myanimelist.net/anime/genre/10/Fantasy"
-          }
-        ]
-      },
-      {
-        "anime_id": 8,
-        "url": "",
-        "images": "",
-        "trailer": {
-          "youtube_id": "gY5nDXOtv_o",
-          "url": "",
-          "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
-        },
-        "title_english": "",
-        "title_japanese": "",
-        "Synonyms": "",
-        "type": "TV",
-        "source": "Original",
-        "episodes": 1,
-        "status": "Currently Airing",
-        "aired": {
-          "from": "1998-04-03T00:00:00+00:00",
-          "to": "1999-04-24T00:00:00+00:00",
-          "prop": {
-            "from": {
-              "day": 3,
-              "month": 4,
-              "year": 1998
-            },
-            "to": {
-              "day": 24,
-              "month": 4,
-              "year": 1999
-            }
-          },
-          "string": ""
-        },
-        "duration": "24 min",
-        "rating": "R - 17+ (violence & profanity)",
-        "score": 8.75,
-        "scored_by": 946725,
-        "rank": 46,
-        "popularity": 43,
-        "members": 1831694,
-        "favorites": 81068,
-        "synopsis": "",
-        "season": "Winter",
-        "year": 2024,
-        "producers": [
-          {
-            "name": "Aniplex",
-            "url": "https://myanimelist.net/anime/producer/17/Aniplex"
-          },
-          {
-            "name": "Crunchyroll",
-            "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
-          }
-        ],
-        "licensors": [
-          {
-            "mal_id": 102,
-            "type": "anime",
-            "name": "Funimation",
-            "url": "https://myanimelist.net/anime/producer/102/Funimation"
-          }
-        ],
-        "studios": [
-          {
-            "name": "A-1 Pictures",
-            "url": "https://myanimelist.net/anime/producer/56/A-1_Pictures"
-          }
-        ],
-        "genres": [
-          {
-            "name": "Action",
-            "url": "https://myanimelist.net/anime/genre/1/Action"
-          },
-          {
-            "name": "Adventure",
-            "url": "https://myanimelist.net/anime/genre/2/Adventure"
-          },
-          {
-            "name": "Fantasy",
-            "url": "https://myanimelist.net/anime/genre/10/Fantasy"
-          }
-        ]
-      },
-      {
-        "anime_id": 9,
-        "url": "",
-        "images": "",
-        "trailer": {
-          "youtube_id": "gY5nDXOtv_o",
-          "url": "",
-          "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
-        },
-        "title_english": "",
-        "title_japanese": "",
-        "Synonyms": "",
-        "type": "TV",
-        "source": "Original",
-        "episodes": 1,
-        "status": "Currently Airing",
-        "aired": {
-          "from": "1998-04-03T00:00:00+00:00",
-          "to": "1999-04-24T00:00:00+00:00",
-          "prop": {
-            "from": {
-              "day": 3,
-              "month": 4,
-              "year": 1998
-            },
-            "to": {
-              "day": 24,
-              "month": 4,
-              "year": 1999
-            }
-          },
-          "string": ""
-        },
-        "duration": "24 min",
-        "rating": "R - 17+ (violence & profanity)",
-        "score": 8.75,
-        "scored_by": 946725,
-        "rank": 46,
-        "popularity": 43,
-        "members": 1831694,
-        "favorites": 81068,
-        "synopsis": "",
-        "season": "Winter",
-        "year": 2024,
-        "producers": [
-          {
-            "name": "Aniplex",
-            "url": "https://myanimelist.net/anime/producer/17/Aniplex"
-          },
-          {
-            "name": "Crunchyroll",
-            "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
-          }
-        ],
-        "licensors": [
-          {
-            "mal_id": 102,
-            "type": "anime",
-            "name": "Funimation",
-            "url": "https://myanimelist.net/anime/producer/102/Funimation"
-          }
-        ],
-        "studios": [
-          {
-            "name": "A-1 Pictures",
-            "url": "https://myanimelist.net/anime/producer/56/A-1_Pictures"
-          }
-        ],
-        "genres": [
-          {
-            "name": "Action",
-            "url": "https://myanimelist.net/anime/genre/1/Action"
-          },
-          {
-            "name": "Adventure",
-            "url": "https://myanimelist.net/anime/genre/2/Adventure"
-          },
-          {
-            "name": "Fantasy",
-            "url": "https://myanimelist.net/anime/genre/10/Fantasy"
-          }
-        ]
-      },
-      {
-        "anime_id": 10,
-        "url": "",
-        "images": "",
-        "trailer": {
-          "youtube_id": "gY5nDXOtv_o",
-          "url": "",
-          "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
-        },
-        "title_english": "",
-        "title_japanese": "",
-        "Synonyms": "",
-        "type": "TV",
-        "source": "Original",
-        "episodes": 1,
-        "status": "Currently Airing",
-        "aired": {
-          "from": "1998-04-03T00:00:00+00:00",
-          "to": "1999-04-24T00:00:00+00:00",
-          "prop": {
-            "from": {
-              "day": 3,
-              "month": 4,
-              "year": 1998
-            },
-            "to": {
-              "day": 24,
-              "month": 4,
-              "year": 1999
-            }
-          },
-          "string": ""
-        },
-        "duration": "24 min",
-        "rating": "R - 17+ (violence & profanity)",
-        "score": 8.75,
-        "scored_by": 946725,
-        "rank": 46,
-        "popularity": 43,
-        "members": 1831694,
-        "favorites": 81068,
-        "synopsis": "",
-        "season": "Winter",
-        "year": 2024,
-        "producers": [
-          {
-            "name": "Aniplex",
-            "url": "https://myanimelist.net/anime/producer/17/Aniplex"
-          },
-          {
-            "name": "Crunchyroll",
-            "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
-          }
-        ],
-        "licensors": [
-          {
-            "mal_id": 102,
-            "type": "anime",
-            "name": "Funimation",
-            "url": "https://myanimelist.net/anime/producer/102/Funimation"
-          }
-        ],
-        "studios": [
-          {
-            "name": "A-1 Pictures",
-            "url": "https://myanimelist.net/anime/producer/56/A-1_Pictures"
-          }
-        ],
-        "genres": [
-          {
-            "name": "Action",
-            "url": "https://myanimelist.net/anime/genre/1/Action"
-          },
-          {
-            "name": "Adventure",
-            "url": "https://myanimelist.net/anime/genre/2/Adventure"
-          },
-          {
-            "name": "Fantasy",
-            "url": "https://myanimelist.net/anime/genre/10/Fantasy"
-          }
-        ]
-      }
-]
+        {
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    }
+  ]
 }
