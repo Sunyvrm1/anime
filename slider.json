@@ -849,11 +849,11 @@
     },
     {
       "anime_id": 10,
-      "url": "",
-      "images": "",
+      "url": "https://myanimelist.net/anime/44511/Chainsaw_Man",
+      "images": "https://cdn.myanimelist.net/images/anime/1806/126216.jpg",
       "trailer": {
         "youtube_id": "gY5nDXOtv_o",
-        "url": "",
+        "url": "https://youtu.be/q15CRdE5Bv0?si=OBmuEmEdd_Hkc-qt",
         "embed_url": "https://www.youtube.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1"
       },
       "title_english": "Chainsaw Man",
