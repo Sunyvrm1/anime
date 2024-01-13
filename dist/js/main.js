@@ -4,15 +4,13 @@ const right = document.querySelector(".right");
 let curSlide = 0;
 const maxSlide = slide.length;
 
-slide.forEach((s, i) => {
-  s.style.transform = `translateX(${100 * i}%)`;
-});
-
 const gotoSlide = function (gotoSlide) {
   slide.forEach((s, i) => {
     s.style.transform = `translateX(${100 * (i - gotoSlide)}%)`;
   });
 };
+
+gotoSlide(0);
 
 const next = function () {
   if (curSlide == maxSlide - 1) {

@@ -90,10 +90,12 @@ header img {
   width: 100%;
   height: 100vh;
   backdrop-filter: blur(10px);
-  display: none;
+  opacity: 0;
+  transform: translateX(-100%);
 }
 .activeNav{
-  display: block;
+  opacity: 1;
+  transform: translateX(0);
 }
 .closeBtn {
   margin: 0 0 15px 15px;
@@ -110,10 +112,27 @@ nav {
   top: 0;
   left: 0;
   transform: translateX(-100%);
-  transition: tranform 0.5s;
+  transition: transform 0.3s;
+  overflow-y: scroll;
+}
+nav::-webkit-scrollbar {
+  display: none;
 }
 .activeMenu{
   transform: translateX(0%);
+  z-index: 1;
+}
+ul li{
+  padding:15px;
+  border-bottom: 1px solid var(--bg2);
+}
+ul li a{
+  color: var(--color1);
+  font-weight: 500;
+  text-decoration: none;
+}
+ul li a:hover{
+  color: var(--primary);
 }
 
 /* banner css */
@@ -181,6 +200,14 @@ nav {
   align-items: center;
   cursor: pointer;
 }
+button a{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+  color: currentColor;
+  text-decoration: none;
+}
 .playButton {
   background-color: var(--primary);
   color: var(--color3);
@@ -213,7 +240,7 @@ nav {
   bottom: 50px;
   right: 50px;
   cursor: pointer;
-  z-index: 3;
+  z-index: 4;
   border-radius: 5px;
   font-size: 18px;
 }

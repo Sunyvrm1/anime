@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary: #ffdd95;
+  --bg1: #242428;
+  --bg2: rgba(255, 255, 255, 0.1);
+  --color1: #fff;
+  --color2: #aaaaaa;
+  --color3: #111;
+}
+.flex {
+  display: flex;
+}
+.spaceBetween {
+  justify-content: space-between;
+}
+.alignCenter {
+  align-items: center;
+}
+.gap1 {
+  gap: 30px;
+}
+section {
+  padding: 0 50px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/* header css */
+
+header {
+  padding: 10px 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  background: var(--bg1);
+}
+header i {
+  font-size: 25px;
+  color: var(--color1);
+}
+.navIcon{
+  cursor: pointer;
+}
+header .search i {
+  font-size: 15px;
+  color: var(--color3);
+}
+header img {
+  width: 120px;
+}
+.search {
+  padding: 5px 8px;
+  background-color: var(--color1);
+}
+.search input {
+  border: none;
+  padding: 0 5px;
+}
+.btn1 {
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+.search input:focus-visible {
+  outline: none;
+}
+.btnSearch {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 4px;
+}
+.login {
+  padding: 0px 15px;
+  background-color: var(--primary);
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color3);
+  border-radius: 3px;
+}
+.sideNavigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(36, 36, 40, 0.8);
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.activeNav{
+  opacity: 1;
+  transform: translateX(0);
+}
+.closeBtn {
+  margin: 0 0 15px 15px;
+}
+.closeBtn i {
+  font-size: 16px;
+  color: var(--color3);
+}
+nav {
+  width: 260px;
+  height: 100vh;
+  background-color: var(--bg2);
+  padding-top: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  transition: transform 0.3s;
+  overflow-y: scroll;
+}
+nav::-webkit-scrollbar {
+  display: none;
+}
+.activeMenu{
+  transform: translateX(0%);
+  z-index: 1;
+}
+ul li{
+  padding:15px;
+  border-bottom: 1px solid var(--bg2);
+}
+ul li a{
+  color: var(--color1);
+  font-weight: 500;
+  text-decoration: none;
+}
+ul li a:hover{
+  color: var(--primary);
+}
+
+/* spacer */
+
+.spacer{
+    height: 66px;
+}
+
+/* main */
+
+.main{
+    height: 600px;
+    background-image: url("https://img.flawlessfiles.com/_r/300x400/100/5e/76/5e766fbd23e796462040a67203345a7b/5e766fbd23e796462040a67203345a7b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+    filter: grayscale(100%) blur(10px) brightness(60%);
+}
