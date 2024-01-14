@@ -49,3 +49,14 @@ closeBtn.addEventListener("click", () => {
   sideNavigation.classList.toggle("activeNav");
   nav.classList.toggle("activeMenu");
 });
+
+//slide event
+
+const detailButton = document.querySelectorAll(".detailButton");
+detailButton.forEach((btn1) => {
+  btn1.addEventListener("click", () => {
+    const getId = btn1.getAttribute("id");
+    localStorage.setItem("getId", getId);
+    window.location.href = "anime.html";
+  });
+});

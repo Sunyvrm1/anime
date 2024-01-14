@@ -240,16 +240,18 @@ h1{
 }
 .animeQuality{
   background-color: var(--primary);
-  padding: 3px 5px;
+  padding: 3px 10px;
   font-size: 14px;
   font-weight: 500;
   color: var(--color3);
+  border-radius: 3px;
 }
 .animeEpisode{
   background-color: rgba(238,238,238,.2);
   color: var(--color1);
-  padding: 3px 5px;
+  padding: 3px 10px;
   font-size: 14px;
+  border-radius: 3px;
 }
 .animeBtn1{
   margin-top: 15px;
@@ -310,7 +312,7 @@ h1{
 }
 .genreCont ul {
   display: flex;
-  gap: 10px;
+  gap: 8px;
   flex-wrap: wrap;
   max-width: 360px;
 }
@@ -323,14 +325,23 @@ h1{
 }
 .genreCont ul li a{
   font-weight: 400;
-
+}
+.animeYear{
+  margin-left: -5px;
+}
+.anime2 a{
+  color: currentColor;
+  text-decoration: none;
+}
+.anime2 a:hover{
+  color: var(--primary);
 }
 
 /* media query for 1280px */
 
 @media (max-width: 1400px) {
 .anime1 {
-    padding: 50px;
+    padding: 70px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -341,6 +352,9 @@ h1{
 }
 .anime2{
   padding: 50px 30px;
+  font-size: 14px;
+}
+.animePlot{
   font-size: 14px;
 }
 }
