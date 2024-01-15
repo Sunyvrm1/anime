@@ -26,7 +26,7 @@
   gap: 30px;
 }
 section {
-  padding: 0 50px;
+  padding: 40px 50px;
 }
 h2 {
   font-size: 40px;
@@ -179,7 +179,12 @@ ul li a:hover{
     var(--bg1) 25%,
     var(--bg1) 40%,
     transparent
-  );
+  ), linear-gradient(
+  to top,
+  var(--bg1) 0%,
+  transparent,
+  transparent
+);
   position: absolute;
   top: 0;
   left: 0;
@@ -212,12 +217,12 @@ button a{
   background-color: var(--primary);
   color: var(--color3);
 }
-.detailButton {
+.detailButton, .closeBtn {
   background-color: #56565b;
   color: var(--color1);
   font-weight: 500;
 }
-.detailButton:hover {
+.detailButton:hover, .closeBtn:hover {
   background-color: #6a6a71;
 }
 .Spotlight {
@@ -252,6 +257,83 @@ button a{
   color: var(--color3);
 }
 
+/* Trending css */
+
+.trendingCont{
+  background-color: var(--bg1);
+}
+h3{
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 25px;
+}
+.trendCont{
+    position: relative;
+}
+.sliderOuterCont{
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  overflow: hidden;
+  width: calc(100% - 70px);
+}
+.slideTrend{
+  display: flex;
+  align-items: end;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+.trentTitle{
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+}
+.trendCount{
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--primary);
+}
+.trendName{
+  font-weight: 500;
+  font-size: 16px;
+  writing-mode: vertical-rl; 
+  color: var(--color1);
+  position: absolute;
+  bottom: 40px;
+  height: 180px;
+  transform: rotate(180deg);
+}
+.trentImage img{
+  width: 185px;
+  max-height: 260px;
+  object-fit: cover;
+  display: flex;
+}
+.trendNameDots {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.sliderBtn {
+  height: 48%;
+  width: 45px;
+  background-color: #56565b;
+  position: absolute;
+  color: #fff;
+  border: none;
+  right: 0px;
+  cursor: pointer;
+  z-index: 4;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.sliderleft{
+  top: 0;
+}
+.sliderright{
+  bottom: 0;
+}
 /* media query for 1280px */
 
 @media (max-width: 1400px) {
@@ -259,6 +341,7 @@ button a{
     height: 550px;
   }
   .bannerImage img {
+    width: 100%;
     height: 550px;
     object-fit: cover;
   }
@@ -270,7 +353,12 @@ button a{
       var(--bg1) 15%,
       var(--bg1) 30%,
       transparent
-    );
+    ), linear-gradient(
+  to top,
+  var(--bg1) 0%,
+  transparent,
+  transparent
+);
     position: absolute;
     top: 0;
     left: 0;

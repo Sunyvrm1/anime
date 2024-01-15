@@ -71,18 +71,23 @@ fetch("slider.json")
       animeDur.innerHTML = matchId.duration;
       animeAir.innerHTML = matchId.status;
       animeScore.innerHTML = matchId.score;
-      animeStud.innerHTML = `<a href="${matchId.studios[0].url}" target="_blank">${matchId.studios[0].name}</a>`;
-      animeProd.innerHTML = matchId.producers
-        .map((suny) => suny.name)
-        .join(", ");
+      //genre
       matchId.genres.forEach((genre) => {
-        // const listItem = document.createElement("li");
-        // listItem.innerHTML = `<a href="${genre.url}">${genre.name}</a>`;
-        // animeGenre.appendChild(listItem);
         const animeGenre1 = document.querySelector(".animeGenre");
         animeGenre1.insertAdjacentHTML(
           "beforeend",
-          `<li><a href="${genre.url}">${genre.name}</a></li>`
+          `<li><a href="${genre.url}" target="_blank">${genre.name}</a></li>`
+        );
+      });
+      //studio
+      animeStud.innerHTML = `<a href="${matchId.studios[0].url}" target="_blank">${matchId.studios[0].name}</a>`;
+      //Producers
+      matchId.producers.forEach((prod, index) => {
+        const animeProd1 = document.querySelector(".animeProd");
+        const comma = index < matchId.producers.length - 1 ? ", " : "";
+        animeProd1.insertAdjacentHTML(
+          "beforeend",
+          `<a href="${prod.url}" target="_blank">${prod.name}</a>${comma}`
         );
       });
     }

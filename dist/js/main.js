@@ -60,3 +60,30 @@ detailButton.forEach((btn1) => {
     window.location.href = "anime.html";
   });
 });
+
+// 2nd slider content
+
+fetch("slider.json")
+  .then((res) => res.json())
+  .then((data) => {
+    console.log(data);
+    data.anime.map((suny, index) => {
+      const v1 = 10 - index;
+      const zero = v1 < 10 ? `0${v1}` : `${v1}`;
+      const SliderTrend = document.querySelector(".sliderOuterCont");
+      SliderTrend.insertAdjacentHTML(
+        "afterbegin",
+        ` <div class="slideTrend">
+          <div class="trentTitle">
+            <p class="trendCount">${zero}</p>
+            <p class="trendName trendNameDots">${suny.title_english}</p>
+          </div>
+          <div class="trentImage">
+            <img src="${suny.images}" alt="${suny.anime_id}">
+          </div>
+        </div>`
+      );
+    });
+  });
+
+//2nd silder Functionality

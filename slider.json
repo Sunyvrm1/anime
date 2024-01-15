@@ -2,6 +2,7 @@
   "anime": [
     {
       "anime_id": 1,
+      "bgUrl":"./dist/images/banner1.jpg",
       "url": "https://myanimelist.net/anime/51180/",
       "images": "https://cdn.myanimelist.net/images/anime/5/86830.jpg",
       "trailer": {
