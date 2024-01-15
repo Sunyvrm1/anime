@@ -85,5 +85,3 @@ fetch("slider.json")
       );
     });
   });
-
-//2nd silder Functionality
