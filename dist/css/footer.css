@@ -38,21 +38,21 @@ h3 {
     gap: 20px;
     align-items: center;
 }
+.top10Item:last-child .borderBottom{
+  border-bottom: none;
+}
 .top10Serial {
+  width: 30px;
   font-size: 20px;
   font-weight: 600;
   color: var(--color1);
 }
-.top10ItemImage {
-  width: 60px;
+.borderBottom img {
+  width: 60px !important;
   height: 76px;
   object-fit: cover;
   border-radius: 5px;
   display: flex;
-}
-.top10ItemName {
-    color: var(--color1);
-  font-weight: 500;
 }
 .top10ItemEpisode {
   width: max-content;
@@ -76,4 +76,30 @@ h3 {
     gap: 20px;
     align-items: center;
     border-bottom: 1px solid var(--bg2);
+}
+.btn1{
+  background: transparent;
+  color: var(--color1);
+  font-weight: 500;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+.btn1:hover{
+  color: var(--primary);
+}
+.upcoming{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 15px;
+}
+.upAnime img{
+  width: 100%;
+  height: 310px;
+  object-fit: cover;
+}
+.upAnimeName{
+  color: var(--color1);
+  font-weight: 500;
+  width: 100%;
 }
