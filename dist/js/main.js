@@ -85,3 +85,72 @@ fetch("slider.json")
       );
     });
   });
+
+//category API
+
+const category1 = document.querySelector(".category1");
+const category2 = document.querySelector(".category2");
+const category3 = document.querySelector(".category3");
+const category4 = document.querySelector(".category4");
+
+fetch("https://api.jikan.moe/v4/anime")
+  .then((res) => res.json())
+  .then((cate) => {
+    console.log(cate);
+    let cate1 = cate.data.slice(0, 5);
+    let cate2 = cate.data.slice(5, 10);
+    let cate3 = cate.data.slice(10, 15);
+    let cate4 = cate.data.slice(15, 20);
+
+    cate1.map((suny) => {
+      category1.insertAdjacentHTML(
+        "beforeend",
+        `<div class="categoryItem">
+            <img src="${suny.images.jpg.large_image_url}" alt="${suny.mal_id}" class="animeCatImage">
+            <div class="animeCat">
+              <p class="animeCatName">${suny.title}</p>
+              <p class="animeCatEpisode">${suny.episodes}</p>
+            </div>
+          </div>`
+      );
+    });
+
+    cate2.map((suny) => {
+      category2.insertAdjacentHTML(
+        "beforeend",
+        `<div class="categoryItem">
+            <img src="${suny.images.jpg.large_image_url}" alt="${suny.mal_id}" class="animeCatImage">
+            <div class="animeCat">
+              <p class="animeCatName">${suny.title}</p>
+              <p class="animeCatEpisode">${suny.episodes}</p>
+            </div>
+          </div>`
+      );
+    });
+
+    cate3.map((suny) => {
+      category3.insertAdjacentHTML(
+        "beforeend",
+        `<div class="categoryItem">
+            <img src="${suny.images.jpg.large_image_url}" alt="${suny.mal_id}" class="animeCatImage">
+            <div class="animeCat">
+              <p class="animeCatName">${suny.title}</p>
+              <p class="animeCatEpisode">${suny.episodes}</p>
+            </div>
+          </div>`
+      );
+    });
+
+    cate4.map((suny) => {
+      category4.insertAdjacentHTML(
+        "beforeend",
+        `<div class="categoryItem">
+            <img src="${suny.images.jpg.large_image_url}" alt="${suny.mal_id}" class="animeCatImage">
+            <div class="animeCat">
+              <p class="animeCatName">${suny.title}</p>
+              <p class="animeCatEpisode">${suny.episodes}</p>
+            </div>
+          </div>`
+      );
+    });
+  });
