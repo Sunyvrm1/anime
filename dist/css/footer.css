@@ -21,7 +21,7 @@ body {
   padding: 40px 50px;
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap: 25px;
+  gap: 40px;
 }
 h3 {
   color: var(--primary);
@@ -84,6 +84,7 @@ h3 {
   border: none;
   text-align: left;
   cursor: pointer;
+  padding: 0;
 }
 .btn1:hover{
   color: var(--primary);
@@ -91,15 +92,21 @@ h3 {
 .upcoming{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 15px;
+  gap: 20px;
 }
 .upAnime img{
   width: 100%;
-  height: 310px;
+  height: 280px;
   object-fit: cover;
 }
 .upAnimeName{
   color: var(--color1);
   font-weight: 500;
   width: 100%;
+}
+.threeLines {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }

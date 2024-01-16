@@ -25,9 +25,9 @@ fetch("slider.json")
           </div>`
       );
 
-      const detailButton = document.getElementById(suny.anime_id);
-      detailButton.addEventListener("click", () => {
-        const getId = detailButton.getAttribute("id");
+      const detailButton1 = document.getElementById(suny.anime_id);
+      detailButton1.addEventListener("click", () => {
+        const getId = detailButton1.getAttribute("id");
         localStorage.setItem("getId", getId);
         window.location.href = "anime.html";
       });
@@ -48,7 +48,7 @@ fetch("https://api.jikan.moe/v4/seasons/upcoming")
               src="${suny.images.jpg.large_image_url}"
               alt="${suny.mal_id}"
             />
-            <p class="upAnimeName">${suny.title_english}</p>
+            <p class="upAnimeName threeLines">${suny.title}</p>
           </div>`
       );
 
