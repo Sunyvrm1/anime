@@ -50,7 +50,7 @@ closeBtn.addEventListener("click", () => {
   nav.classList.toggle("activeMenu");
 });
 
-//slide event
+//slider event
 
 const detailButton = document.querySelectorAll(".detailButton");
 detailButton.forEach((btn1) => {
@@ -159,14 +159,14 @@ fetch("https://api.jikan.moe/v4/anime")
 
 //Top 10
 
-const top101 = document.querySelector(".top10");
+const top10 = document.querySelector(".top10");
 fetch("slider.json")
   .then((res) => res.json())
   .then((top) => {
     top.anime.map((suny, index) => {
       const v1 = 1 + index;
       const zero = v1 < 10 ? `0${v1}` : `${v1}`;
-      top101.insertAdjacentHTML(
+      top10.insertAdjacentHTML(
         "beforeend",
         `<div class="top10Item">
             <p class="top10Serial">${zero}</p>
@@ -183,10 +183,12 @@ fetch("slider.json")
             </div>
           </div>`
       );
-
-      const detailButton1 = document.getElementById(suny.anime_id);
-      detailButton1.addEventListener("click", () => {
-        const getId = detailButton1.getAttribute("id");
+    });
+    const btnFoot = document.querySelectorAll(".btnFoot");
+    btnFoot.forEach((suny, i) => {
+      suny.addEventListener("click", () => {
+        const getId = suny.getAttribute("id");
+        console.log(getId);
         localStorage.setItem("getId", getId);
         window.location.href = "anime.html";
       });
@@ -195,27 +197,30 @@ fetch("slider.json")
 
 //Top Upcoming
 
-const upcoming1 = document.querySelector(".upcoming");
+const upcoming = document.querySelector(".upcoming");
 fetch("https://api.jikan.moe/v4/seasons/upcoming")
   .then((res) => res.json())
   .then((top) => {
-    top.data.map((suny) => {
-      upcoming1.insertAdjacentHTML(
+    const animeTwenty = top.data.slice(0, 24);
+    animeTwenty.map((suny) => {
+      upcoming.insertAdjacentHTML(
         "beforeend",
         `<div class="upAnime">
             <img
               src="${suny.images.jpg.large_image_url}"
               alt="${suny.mal_id}"
+              class = "upAnimeImages"
             />
-            <p class="upAnimeName threeLines">${suny.title}</p>
+            <p class="upAnimeName threeLines1">${suny.title}</p>
           </div>`
       );
-
-      //   const detailButton = document.getElementById(suny.anime_id);
-      //   detailButton.addEventListener("click", () => {
-      //     const getId = detailButton.getAttribute("id");
-      //     localStorage.setItem("getId", getId);
-      //     window.location.href = "anime.html";
-      //   });
+    });
+    const upAnimeImages = document.querySelectorAll(".upAnimeImages");
+    upAnimeImages.forEach((image) => {
+      image.addEventListener("click", () => {
+        const imgId = image.getAttribute("alt");
+        localStorage.setItem("imgId", imgId);
+        window.location.href = "anime.html";
+      });
     });
   });
