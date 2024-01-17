@@ -374,6 +374,10 @@ h3{
 .animeCatName{
   color: var(--color1);
   font-weight: 500;
+  cursor: pointer;
+}
+.animeCatName:hover{
+  color: var(--primary);
 }
 .animeCatEpisode{
   width: max-content;
@@ -469,6 +473,11 @@ h3 {
   width: 100%;
   height: 280px;
   object-fit: cover;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+.upAnime img:hover{
+  filter: brightness(0.5);
 }
 .upAnimeName{
   color: var(--color1);

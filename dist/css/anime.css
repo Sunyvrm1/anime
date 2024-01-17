@@ -291,6 +291,7 @@ h1 {
   color: var(--color1);
 }
 .detailTitle {
+  margin-top: 3px;
   font-weight: 600;
 }
 .detailTitle {

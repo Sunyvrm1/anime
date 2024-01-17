@@ -88,71 +88,33 @@ fetch("slider.json")
 
 //category API
 
-const category1 = document.querySelector(".category1");
-const category2 = document.querySelector(".category2");
-const category3 = document.querySelector(".category3");
-const category4 = document.querySelector(".category4");
+function createCategory(category, categoryData) {
+  categoryData.map((suny) => {
+    category.insertAdjacentHTML(
+      "beforeend",
+      `<div class="categoryItem">
+            <img src="${suny.images.jpg.large_image_url}" alt="${suny.mal_id}" class="animeCatImage">
+            <div class="animeCat">
+              <p class="animeCatName">${suny.title}</p>
+              <p class="animeCatEpisode">${suny.episodes}</p>
+            </div>
+          </div>`
+    );
+  });
+}
 
 fetch("https://api.jikan.moe/v4/anime")
   .then((res) => res.json())
   .then((cate) => {
-    console.log(cate);
-    let cate1 = cate.data.slice(0, 5);
-    let cate2 = cate.data.slice(5, 10);
-    let cate3 = cate.data.slice(10, 15);
-    let cate4 = cate.data.slice(15, 20);
+    const category1 = document.querySelector(".category1");
+    const category2 = document.querySelector(".category2");
+    const category3 = document.querySelector(".category3");
+    const category4 = document.querySelector(".category4");
 
-    cate1.map((suny) => {
-      category1.insertAdjacentHTML(
-        "beforeend",
-        `<div class="categoryItem">
-            <img src="${suny.images.jpg.large_image_url}" alt="${suny.mal_id}" class="animeCatImage">
-            <div class="animeCat">
-              <p class="animeCatName">${suny.title}</p>
-              <p class="animeCatEpisode">${suny.episodes}</p>
-            </div>
-          </div>`
-      );
-    });
-
-    cate2.map((suny) => {
-      category2.insertAdjacentHTML(
-        "beforeend",
-        `<div class="categoryItem">
-            <img src="${suny.images.jpg.large_image_url}" alt="${suny.mal_id}" class="animeCatImage">
-            <div class="animeCat">
-              <p class="animeCatName">${suny.title}</p>
-              <p class="animeCatEpisode">${suny.episodes}</p>
-            </div>
-          </div>`
-      );
-    });
-
-    cate3.map((suny) => {
-      category3.insertAdjacentHTML(
-        "beforeend",
-        `<div class="categoryItem">
-            <img src="${suny.images.jpg.large_image_url}" alt="${suny.mal_id}" class="animeCatImage">
-            <div class="animeCat">
-              <p class="animeCatName">${suny.title}</p>
-              <p class="animeCatEpisode">${suny.episodes}</p>
-            </div>
-          </div>`
-      );
-    });
-
-    cate4.map((suny) => {
-      category4.insertAdjacentHTML(
-        "beforeend",
-        `<div class="categoryItem">
-            <img src="${suny.images.jpg.large_image_url}" alt="${suny.mal_id}" class="animeCatImage">
-            <div class="animeCat">
-              <p class="animeCatName">${suny.title}</p>
-              <p class="animeCatEpisode">${suny.episodes}</p>
-            </div>
-          </div>`
-      );
-    });
+    createCategory(category1, cate.data.slice(0, 5));
+    createCategory(category2, cate.data.slice(5, 10));
+    createCategory(category3, cate.data.slice(10, 15));
+    createCategory(category4, cate.data.slice(15, 20));
   });
 
 //footer
@@ -195,7 +157,7 @@ fetch("slider.json")
     });
   });
 
-//Top Upcoming
+// //Top Upcoming
 
 const upcoming = document.querySelector(".upcoming");
 fetch("https://api.jikan.moe/v4/seasons/upcoming")
@@ -218,8 +180,8 @@ fetch("https://api.jikan.moe/v4/seasons/upcoming")
     const upAnimeImages = document.querySelectorAll(".upAnimeImages");
     upAnimeImages.forEach((image) => {
       image.addEventListener("click", () => {
-        const imgId = image.getAttribute("alt");
-        localStorage.setItem("imgId", imgId);
+        const getId = image.getAttribute("alt");
+        localStorage.setItem("getId", getId);
         window.location.href = "anime.html";
       });
     });
