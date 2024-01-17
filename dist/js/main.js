@@ -121,6 +121,12 @@ fetch("https://api.jikan.moe/v4/anime")
 
 //Top 10
 
+const gotoAnime = function (anime) {
+  const getId = anime.getAttribute("id");
+  localStorage.setItem("getId", getId);
+  window.location.href = "anime.html";
+};
+
 const top10 = document.querySelector(".top10");
 fetch("slider.json")
   .then((res) => res.json())
@@ -147,13 +153,8 @@ fetch("slider.json")
       );
     });
     const btnFoot = document.querySelectorAll(".btnFoot");
-    btnFoot.forEach((suny, i) => {
-      suny.addEventListener("click", () => {
-        const getId = suny.getAttribute("id");
-        console.log(getId);
-        localStorage.setItem("getId", getId);
-        window.location.href = "anime.html";
-      });
+    btnFoot.forEach((suny) => {
+      suny.addEventListener("click", () => gotoAnime(suny));
     });
   });
 

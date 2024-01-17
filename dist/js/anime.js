@@ -22,23 +22,6 @@ const displayValue = function (value) {
 };
 
 const setAnimeValues = function (matchId) {
-  const animePlatform = document.querySelector(".animePlatform");
-  const animeName = document.querySelector(".animeName");
-  const animeTitle = document.querySelector(".animeTitle");
-  const animeEpisode = document.querySelector(".animeEpisode");
-  const animeDuration = document.querySelector(".animeDuration");
-  const playButton = document.querySelector(".trailerBtn");
-  const listBtn = document.querySelector(".listBtn");
-  const animePlot = document.querySelector(".animePlot");
-  const japTitle = document.querySelector(".japTitle");
-  const Syn = document.querySelector(".Syn");
-  const animeDate = document.querySelector(".animeDate");
-  const animeSeason = document.querySelector(".animeSeason");
-  const animeYear = document.querySelector(".animeYear");
-  const animeDur = document.querySelector(".animeDur");
-  const animeAir = document.querySelector(".animeAir");
-  const animeScore = document.querySelector(".animeScore");
-
   animePlatform.innerHTML = displayValue(matchId.type);
   animeName.innerHTML = matchId.title_english || matchId.title;
   animeTitle.innerHTML = matchId.title_english || matchId.title;
@@ -55,7 +38,6 @@ const setAnimeValues = function (matchId) {
   animeDur.innerHTML = matchId.duration;
   animeAir.innerHTML = matchId.status;
   animeScore.innerHTML = displayValue(matchId.score);
-
   // Add genres
   matchId.genres.forEach((genre) => {
     const animeGenre1 = document.querySelector(".animeGenre");
@@ -74,19 +56,39 @@ const setAnimeValues = function (matchId) {
   }
 
   // Add Producers
-  matchId.producers.forEach((prod, index) => {
-    const animeProd1 = document.querySelector(".animeProd");
-    const comma = index < matchId.producers.length - 1 ? ", " : "";
-    animeProd1.insertAdjacentHTML(
-      "beforeend",
-      `<a href="${prod.url}" target="_blank">${prod.name}</a>${comma}`
-    );
-  });
+  const animeProd1 = document.querySelector(".animeProd");
+  if (matchId.producers.length > 0) {
+    matchId.producers.forEach((prod, index) => {
+      const comma = index < matchId.producers.length - 1 ? ", " : "";
+      animeProd1.insertAdjacentHTML(
+        "beforeend",
+        `<a href="${prod.url}" target="_blank">${prod.name}</a>${comma}`
+      );
+    });
+  } else {
+    animeProd1.insertAdjacentHTML("beforeend", "No producer information");
+  }
 };
 
 const storeId = localStorage.getItem("getId");
 const animeBG = document.querySelector(".animeBG");
 const animeImage = document.querySelector(".animeImage");
+const animePlatform = document.querySelector(".animePlatform");
+const animeName = document.querySelector(".animeName");
+const animeTitle = document.querySelector(".animeTitle");
+const animeEpisode = document.querySelector(".animeEpisode");
+const animeDuration = document.querySelector(".animeDuration");
+const playButton = document.querySelector(".trailerBtn");
+const listBtn = document.querySelector(".listBtn");
+const animePlot = document.querySelector(".animePlot");
+const japTitle = document.querySelector(".japTitle");
+const Syn = document.querySelector(".Syn");
+const animeDate = document.querySelector(".animeDate");
+const animeSeason = document.querySelector(".animeSeason");
+const animeYear = document.querySelector(".animeYear");
+const animeDur = document.querySelector(".animeDur");
+const animeAir = document.querySelector(".animeAir");
+const animeScore = document.querySelector(".animeScore");
 
 fetch("slider.json")
   .then((res) => res.json())
