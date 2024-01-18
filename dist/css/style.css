@@ -658,7 +658,7 @@ h2{
 }
 
 .bannerImage img {
-object-position: center;
+object-position: right;
 }
 .overlay{
   background: linear-gradient( to top, var(--bg1) 5%, transparent )
