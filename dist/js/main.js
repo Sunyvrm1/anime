@@ -107,11 +107,13 @@ function createCategory(category, categoryData) {
           </div>`
     );
     const catBtn = document.querySelectorAll(".btnFoot");
-    catBtn.forEach((btn)=> {
+    catBtn.forEach((btn) => {
       btn.addEventListener("click", () => {
-        cont catId
-      })
-    })
+        const getId = btn.getAttribute("id");
+        localStorage.setItem("getId", getId);
+        window.location.href = "anime.html";
+      });
+    });
   });
 }
 

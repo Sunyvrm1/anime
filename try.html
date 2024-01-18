@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+  <style>
+    /* Custom styling for the Splide slider container */
+    .splide-container {
+      max-width: 800px; /* Set your desired max-width */
+      margin: 0 auto;
+    }
+
+    /* Custom styling for Splide slides */
+    .splide__slide {
+      box-sizing: border-box;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="splide">
+  <div class="splide__track">
+    <div class="splide__list">
+      <!-- Slide 1 -->
+      <!-- <div class="splide__slide">Slide 1 Content</div> -->
+      
+      
+      <!-- Add more slides as needed -->
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script>
+
+    // Fetch data from the JSON file
+fetch("slider.json")
+  .then((res) => res.json())
+  .then((data) => {
+    console.log(data);
+    populateSlider(data.anime);
+  })
+  .catch((error) => {
+    console.error('Error fetching data:', error);
+  });
+
+// Function to populate the Splide slider with data
+function populateSlider(animeData) {
+  const SliderTrend = document.querySelector(".splide__list");
+
+  animeData.forEach((suny, index) => {
+    const trendCount = 10 - index;
+    const zero = trendCount < 10 ? `0${trendCount}` : `${trendCount}`;
+
+    SliderTrend.insertAdjacentHTML(
+      "afterbegin",
+      `<div class="splide__slide">
+        <div class="trentTitle">
+          <p class="trendCount">${zero}</p>
+          <p class="trendName trendNameDots">${suny.title_english}</p>
+        </div>
+        <div class="trentImage">
+          <img src="${suny.images}" alt="${suny.anime_id}">
+        </div>
+      </div>`
+    );
+  });
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  var splide;
+
+  function initializeSplide() {
+    splide = new Splide('.splide', {
+      perPage: determinePerPage(),
+      perMove: 1,
+      pagination: false,
+    });
+
+    splide.mount();
+  }
+
+  function determinePerPage() {
+    const screenWidth = window.innerWidth;
+
+    if (screenWidth < 1400) {
+      return 4;
+    } else {
+      return 7; // Default value for larger screens
+    }
+  }
+
+  initializeSplide();
+
+  window.addEventListener('resize', function () {
+    splide.options.perPage = determinePerPage();
+    splide.refresh();
+  });
+});
+
+</script>
+
+
+</body>
+</html>

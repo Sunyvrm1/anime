@@ -71,6 +71,8 @@ const setAnimeValues = function (matchId) {
 };
 
 const storeId = localStorage.getItem("getId");
+console.log(storeId);
+
 const animeBG = document.querySelector(".animeBG");
 const animeImage = document.querySelector(".animeImage");
 const animePlatform = document.querySelector(".animePlatform");
@@ -110,6 +112,24 @@ fetch("slider.json")
 // 2nd api data show
 
 fetch("https://api.jikan.moe/v4/seasons/upcoming")
+  .then((res) => res.json())
+  .then((upcome) => {
+    console.log(upcome);
+    const matchId = upcome.data.find(
+      (ani) => ani.mal_id.toString() === storeId
+    );
+
+    if (matchId) {
+      animeBG.src = matchId.images.jpg.large_image_url;
+      animeImage.src = matchId.images.jpg.large_image_url;
+      Syn.innerHTML = matchId.title_japanese;
+      setAnimeValues(matchId);
+    }
+  });
+
+// 3rd api data show
+
+fetch("https://api.jikan.moe/v4/anime")
   .then((res) => res.json())
   .then((upcome) => {
     console.log(upcome);

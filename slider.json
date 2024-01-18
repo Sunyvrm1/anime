@@ -1,7 +1,7 @@
 {
   "anime": [
     {
-      "anime_id": 1,
+      "anime_id": 1001,
       "bgUrl":"./dist/images/banner1.jpg",
       "url": "https://myanimelist.net/anime/51180/",
       "images": "https://cdn.myanimelist.net/images/anime/5/86830.jpg",
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "anime_id": 2,
+      "anime_id": 1002,
       "url": "https://myanimelist.net/anime/52299/",
       "images": "https://cdn.myanimelist.net/images/anime/1926/140799.jpg",
       "trailer": {
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "anime_id": 3,
+      "anime_id": 1003,
       "url": "https://myanimelist.net/anime/269/Bleach",
       "images": "https://cdn.myanimelist.net/images/anime/3/40451.jpg",
       "trailer": {
@@ -279,7 +279,7 @@
       ]
     },
     {
-      "anime_id": 4,
+      "anime_id": 1004,
       "url": "https://myanimelist.net/anime/52211/",
       "images": "https://cdn.myanimelist.net/images/anime/1218/135107.jpg",
       "trailer": {
@@ -370,7 +370,7 @@
       ]
     },
     {
-      "anime_id": 5,
+      "anime_id": 1005,
       "url": "https://myanimelist.net/anime/21/One_Piece",
       "images": "https://cdn.myanimelist.net/images/anime/1244/138851.jpg",
       "trailer": {
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "anime_id": 6,
+      "anime_id": 1006,
       "url": "https://myanimelist.net/anime/51009/Jujutsu_Kaisen_2nd_Season",
       "images": "https://cdn.myanimelist.net/images/anime/1792/138022.jpg",
       "trailer": {
@@ -556,7 +556,7 @@
       ]
     },
     {
-      "anime_id": 7,
+      "anime_id": 1007,
       "url": "https://myanimelist.net/anime/16498/Shingeki_no_Kyojin",
       "images": "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
       "trailer": {
@@ -655,7 +655,7 @@
       ]
     },
     {
-      "anime_id": 8,
+      "anime_id": 1008,
       "url": "https://myanimelist.net/anime/34572/Black_Clover",
       "images": "https://cdn.myanimelist.net/images/anime/2/88336.jpg",
       "trailer": {
@@ -746,7 +746,7 @@
       ]
     },
     {
-      "anime_id": 9,
+      "anime_id": 1009,
       "url": "https://myanimelist.net/anime/1735/Naruto__Shippuuden",
       "images": "https://cdn.myanimelist.net/images/anime/1565/111305.jpg",
       "trailer": {
@@ -849,7 +849,7 @@
       ]
     },
     {
-      "anime_id": 10,
+      "anime_id": 1010,
       "url": "https://myanimelist.net/anime/44511/Chainsaw_Man",
       "images": "https://cdn.myanimelist.net/images/anime/1806/126216.jpg",
       "trailer": {
