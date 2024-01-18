@@ -577,7 +577,6 @@ h3 {
   }
   header{
     padding: 10px 20px;
-    position: relative;
   }
   .bannerContent{
     left: 20px;
@@ -634,6 +633,7 @@ h3 {
 .bannerContent{
   gap: 20px;
   width: 70%;
+  bottom: 0;
 }
 h2{
   font-size: 25px;
@@ -641,7 +641,11 @@ h2{
 .search{
   border-radius: 3px;
 }
-.search input{
+.activeSearch .inputSearch{
+  display: block !important;
+}
+.inputSearch{
+  display: none;
   position: absolute;
   width: 92%;
   top: 80px;
@@ -650,11 +654,25 @@ h2{
   border-radius: 3px;
   transform: translateX(-50%);
   z-index: -1;
+  padding: 0 15px !important;
 }
-.search input{
-  padding: 0 15px;
-}
+
 .bannerImage img {
 object-position: center;
+}
+.overlay{
+  background: linear-gradient( to top, var(--bg1) 5%, transparent )
+}
+.right{
+  bottom: 0;
+}
+.left{
+  bottom: 60px;
+}
+.footerLink{
+  margin-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 }

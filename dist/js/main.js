@@ -8,6 +8,14 @@ window.addEventListener("scroll", () => {
   }
 });
 
+//search
+
+const search = document.querySelector(".btnSearch");
+const inputSearch = document.querySelector(".inputSearch");
+search.addEventListener("click", () => {
+  header.classList.toggle("activeSearch");
+});
+
 //banner slider
 
 const slide = document.querySelectorAll(".slide");
