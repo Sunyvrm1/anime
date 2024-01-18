@@ -361,3 +361,76 @@ h1 {
     font-size: 14px;
   }
 }
+
+/* media query for tab */
+
+@media (max-width: 1250px) {
+  .main{
+    grid-template-columns: 1fr;
+  }
+  h1{
+    font-size: 35px;
+  }
+  .animeCont{
+    gap: 40px;
+  }
+  .anime2{
+    padding: 50px;
+  }
+}
+
+@media (max-width: 960px) {
+  .anime1{
+    padding: 70px 20px;
+  }
+  .anime2{
+    padding: 50px 20px;
+  }
+  header{
+    padding: 10px 20px;
+  }
+}
+
+/* media query for mobile */
+
+@media (max-width: 600px) {
+  h1{
+    font-size: 25px;
+  }
+  .anime1{
+    padding: 50px 20px;
+  }
+  .anime2{
+    padding: 50px 20px;
+  }
+  header{
+    padding: 10px 20px;
+  }
+  .animeCont{
+    flex-direction: column;
+  }
+  .search{
+  border-radius: 3px;
+}
+.activeSearch .inputSearch{
+  display: block !important;
+}
+.inputSearch{
+  display: none;
+  position: absolute;
+  width: 92%;
+  top: 80px;
+  left: 50%;
+  height: 45px;
+  border-radius: 3px;
+  transform: translateX(-50%);
+  z-index: -1;
+  padding: 0 15px !important;
+}
+header img {
+    width: 100px;
+}
+.spacer{
+  height: 60px;
+}
+}

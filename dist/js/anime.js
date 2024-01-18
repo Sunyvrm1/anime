@@ -1,3 +1,12 @@
+//search
+
+const search = document.querySelector(".btnSearch");
+const header = document.querySelector("header");
+const inputSearch = document.querySelector(".inputSearch");
+search.addEventListener("click", () => {
+  header.classList.toggle("activeSearch");
+});
+
 //Navigation
 
 const navIcon = document.querySelector(".navIcon");
