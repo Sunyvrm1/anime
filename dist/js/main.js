@@ -1,3 +1,15 @@
+//shrinking header
+const header = document.querySelector("header");
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 100) {
+    header.classList.add("scrollHeader");
+  } else {
+    header.classList.remove("scrollHeader");
+  }
+});
+
+//banner slider
+
 const slide = document.querySelectorAll(".slide");
 const left = document.querySelector(".left");
 const right = document.querySelector(".right");
@@ -79,10 +91,56 @@ fetch("slider.json")
             <p class="trendName trendNameDots">${suny.title_english}</p>
           </div>
           <div class="trentImage">
-            <img src="${suny.images}" alt="${suny.anime_id}">
+            <img src="${suny.images}" alt="${suny.anime_id}" class="trentImageImg">
           </div>
         </div>`
       );
+    });
+
+    //slider Button code
+
+    const slide = document.querySelectorAll(".slideTrend");
+    const left = document.querySelector(".sliderleft");
+    const right = document.querySelector(".sliderright");
+    let curSlide = 0;
+    const maxSlide = slide.length;
+
+    const gotoSlide = function (gotoSlide) {
+      slide.forEach((s, i) => {
+        s.style.transform = `translateX(${100 * (i - gotoSlide)}%)`;
+      });
+    };
+
+    gotoSlide(0);
+
+    const next = function () {
+      if (curSlide == maxSlide - 7) {
+      } else {
+        curSlide++;
+      }
+      gotoSlide(curSlide);
+    };
+
+    const prev = function () {
+      if (curSlide == 0) {
+      } else {
+        curSlide--;
+      }
+      gotoSlide(curSlide);
+    };
+
+    right.addEventListener("click", next);
+    left.addEventListener("click", prev);
+
+    //slider next page code
+
+    const trentImageImg = document.querySelectorAll(".trentImageImg");
+    trentImageImg.forEach((img) => {
+      img.addEventListener("click", () => {
+        const getId = img.getAttribute("alt");
+        localStorage.setItem("getId", getId);
+        window.location.href = "anime.html";
+      });
     });
   });
 
