@@ -88,18 +88,30 @@ fetch("slider.json")
 
 //category API
 
+const displayValue = function (value) {
+  return value !== null ? value : "?";
+};
+
 function createCategory(category, categoryData) {
   categoryData.map((suny) => {
     category.insertAdjacentHTML(
       "beforeend",
       `<div class="categoryItem">
-            <img src="${suny.images.jpg.large_image_url}" alt="${suny.mal_id}" class="animeCatImage">
+            <img src="${suny.images.jpg.large_image_url}" alt="${
+        suny.mal_id
+      }" class="animeCatImage">
             <div class="animeCat">
-              <p class="animeCatName">${suny.title}</p>
-              <p class="animeCatEpisode">${suny.episodes}</p>
+              <button class="btnFoot" id="${suny.mal_id}">${suny.title}</button>
+              <p class="animeCatEpisode">${displayValue(suny.episodes)}</p>
             </div>
           </div>`
     );
+    const catBtn = document.querySelectorAll(".btnFoot");
+    catBtn.forEach((btn)=> {
+      btn.addEventListener("click", () => {
+        cont catId
+      })
+    })
   });
 }
 

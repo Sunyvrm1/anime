@@ -460,6 +460,7 @@ h3 {
   text-align: left;
   cursor: pointer;
   padding: 0;
+  font-size: 16px;
 }
 .btnFoot:hover{
   color: var(--primary);
